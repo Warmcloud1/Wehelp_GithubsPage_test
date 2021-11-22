@@ -16,9 +16,9 @@
 	let src="https://warmcloud1.github.io/Wehelp_GithubsPage_test/README.md";
 	fetch(src).then(function(response){
 		console.log(response);
-});
+	});
 
      
-  </script>
+	</script>
 </body>
 </html>
