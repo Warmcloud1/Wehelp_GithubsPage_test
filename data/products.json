@@ -22,7 +22,7 @@ list.innerHTML="...Loading...";
 		fetch mdn
 */
 		// 透過網址取得伺服器端提供的 JSON 格式資料
-		let src="https://cwpeng.github.io/live-records-samples/data/products.json"
+		let src="https://warmcloud1.github.io/Wehelp_GithubsPage_test/test.html"
 		fetch(src).then(function(response){
 			console.log(response);
 		});
