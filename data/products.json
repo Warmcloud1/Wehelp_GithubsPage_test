@@ -13,7 +13,6 @@
 	let list = document.getElementById("list");
 	list.innerHTML="...Loading...";
 
-	});
 
      
 	</script>
