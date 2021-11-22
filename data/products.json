@@ -21,12 +21,11 @@ list.innerHTML="...Loading...";
 	或搜尋關鍵字：
 		fetch mdn
 */
-
-    list.innerHTML="";
 		// 透過網址取得伺服器端提供的 JSON 格式資料
-		let src="https://warmcloud1.github.io/Wehelp_GithubsPage_test/test.html"
+		let src="https://cwpeng.github.io/live-records-samples/data/products.json"
 		fetch(src).then(function(response){
-			 });
+			console.log(response);
+		});
 	//		return response.json();
 	//	}).then(function(data){
 			// 先清空畫面
