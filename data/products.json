@@ -10,12 +10,12 @@
   <script>
 // 先顯示載入中的訊息
   let list = document.getElementById("list");
-  list.innerHTML="...Loading..."
+  list.innerHTML="...Loading...";
 		/*
 			基本的 AJAX 語法：使用最新的 fetch 內建函式
 				fetch(網址).then(function(response){
 					// 取得 response 物件
-				});
+				})
 			詳細使用請參考：
 				https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 			或搜尋關鍵字：
