@@ -13,7 +13,7 @@
 	let list = document.getElementById("list");
 	list.innerHTML="...Loading...";
 
-	let src="https://warmcloud1.github.io/Wehelp_GithubsPage_test/test.html"
+	let src="https://warmcloud1.github.io/Wehelp_GithubsPage_test/README.md"
 	fetch(src).then(function(response){
 		console.log(response);
 });
