@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8"/>
-<title>AJAX 網路連線基本操作</title>
-</head>
-<body>
-	  <h1>AJAX 網路連線基本操作</h1>
-	  <div id ="list"></div>
-
-	  <script>
-	// 先顯示載入中的訊息
-	let list = document.getElementById("list");
-	list.innerHTML="...Loading...";
-
-
-     
-	</script>
-</body>
-</html>
-
+[{
+	"name":"apple",
+	"price":33
+ },
+ {
+	"name":"orange",
+	"price":10
+ },
+ {
+	"name":"banana",
+  	"price":3
+ }
+]
